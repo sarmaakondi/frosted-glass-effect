@@ -1,10 +1,12 @@
+import FrostedGlass from "./FrostedGlass";
+
 import "./App.css";
 
 function App() {
     return (
         <>
-            <div className="flex items-center justify-center h-screen">
-                <h1 className="text-4xl">Frosted Glass Effect</h1>
+            <div className="flex justify-center h-screen mt-12">
+                <FrostedGlass />
             </div>
         </>
     );
